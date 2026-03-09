@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* font-family: "Work Sans", sans-serif; */
+
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+ .btn-continer{
+   text-align: center;
+ }
+ .btn{
+   padding: 18px 27px;
+   color: white;
+   font-family: work sans;
+   font-size: 20px;
+   line-height: ;
+   text-align: center;
+   background-color: rgba(82, 195, 3, 1);
+   border-radius: 8px;
+   border: none;
+
+ }
+ #hero{
+    /* background-image: url(../assets/hero-bg.png) ; */
+    background:linear-gradient(360deg, rgba(9, 9, 9, 1) ,rgba(16, 16, 16, 0)), url(../assets/hero-bg.png) ;
+    height: 772px;
+    width: 1612;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ #hero .hero-content{
+    width: 860px;
+    /* margin-right: auto;
+    margin-right: auto;
+    background-color: tomato; */
+     /* border: 1px solid red; */
+ }
+ #hero .hero-content .subtitle{
+    opacity: 0.8;
+    line-height: 25px;
+    font-family: Work sans;
+    color: white;
+    text-align: center;
+    font-weight: 600px;
+    font-size: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+ }
+  #hero .hero-content .title{
+    opacity:100% ;
+    font-family: work sans;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height:65px;
+    letter-spacing: 0%;
+    color: white;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+  #hero .hero-content .description{
+    opacity: 70%;
+    font-family: work sans;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin-bottom: 32px;
+  }
