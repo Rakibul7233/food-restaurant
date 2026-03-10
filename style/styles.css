@@ -20,8 +20,10 @@
    background-color: rgba(82, 195, 3, 1);
    border-radius: 8px;
    border: none;
+   cursor: pointer;
 
  }
+ /* banner start */
  #hero{
     /* background-image: url(../assets/hero-bg.png) ; */
     background:linear-gradient(360deg, rgba(9, 9, 9, 1) ,rgba(16, 16, 16, 0)), url(../assets/hero-bg.png) ;
@@ -74,12 +76,14 @@
     color: white;
     margin-bottom: 32px;
   }
-
+  /* banner end  */
+ 
+  /* card box start  */
   #card-box{
     /* border: 1px solid red; */
     width: 1320px;
     margin: 78px auto;
-  }
+  } 
   #card-box .subtitle{
     opacity: .60;
     font-family: work sans;
@@ -136,5 +140,60 @@
 .card .shop span{
   font-size: 18px;
 }
+/* card box end  */
 
+/* about us  start */
+#about-us{
+  width: 100%;
+  margin: auto;
+}
+#about-us .about{
+  display: flex;
+  justify-content: center;
+}
+#about-us .image-box{
+  max-width: 806px;
+
+}
+#about-us .image-box{
+  width: 806px;
+}
+#about-us .image-box img{
+  width: 100%;
   
+}
+#about-us .text-box{
+  width: 806px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-family: work sans;
+ 
+}
+#about-us .text-box .title{
+  text-align: center;
+  font-size:48px;
+  
+}
+#about-us .text-box .description{
+  opacity: 0.6;
+  font-size: 28px;
+
+}
+#about-us .text-box .subtitle{
+  width: 100%;
+  opacity: .7;
+  font-size: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.309);
+  text-align: center;
+  padding: 30px;
+  margin-left: 32px;
+  padding-left: 0px;
+}
+.text-box .icon img{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
